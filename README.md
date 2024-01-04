@@ -127,8 +127,31 @@ screen.
 ![thumbnail_img_demo3](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/fdc3b5b9-ab38-4571-92ce-42643abfe3ab)
 ### Scada (menu):
 ![img_demo4](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/4e60720c-2bab-45bf-b180-0a7acb894774)
-### Scada (Read only):
+### Scada (Read only / lock):
 ![thumbnail_img_demo6](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/7f5b9ff6-7103-40ff-80af-9359189dea22)
+
+## Video DEMO (Runing on FlowFuse).
+
+### Authentication.
+
+https://github.com/wardok64/Node-RED_SCADA/assets/104173190/ea19211b-b17e-47e7-b810-468f816da0e4
+
+### Controls and PID.
+
+https://github.com/wardok64/Node-RED_SCADA/assets/104173190/792e173d-00c1-4b1c-a0f0-385163afc4ff
+
+### Log and lock.
+
+https://github.com/wardok64/Node-RED_SCADA/assets/104173190/f710e28a-08d0-432a-84a6-e588be0887d8
+
+### Unlock and color.
+
+https://github.com/wardok64/Node-RED_SCADA/assets/104173190/9f1f107b-b017-4e89-ab20-791d82ffc0cc
+
+### Change user/password.
+
+https://github.com/wardok64/Node-RED_SCADA/assets/104173190/fa184d0a-0414-406c-9139-baaf6f8284a6
+
 
 
 
