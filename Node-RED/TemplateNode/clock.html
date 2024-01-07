@@ -1,0 +1,46 @@
+<style>
+    #clock{
+        letter-spacing: 0.0em !important;
+        position: fixed;
+        top: 62px;
+        left: 92px;
+        font-size: 11px !important;
+    }
+</style>
+<script id="titleScript" type="text/javascript">
+
+$(function() {
+    if($('.md-toolbar-tools').length != 0){
+        loadClock();
+    }else setTimeout(loadClock, 500)
+});
+
+function loadClock(){
+    $('#clock').remove();
+    var toolbar = $('.md-toolbar-tools');
+    
+    var div = $('<div/>');
+    var p = $('<p/ id="clock">');
+    
+    div.append(p);
+    div[0].style.margin = '0px 5px auto auto'; 
+    toolbar.append(div);
+
+    function displayTitle(lh) {
+        p.text(lh); 
+    }
+    
+    function upTime() {
+        var d = new Date();
+        p.text(d.toGMTString());
+    }
+
+    if(document.clockInterval){ 
+            clearInterval(document.clockInterval);
+            document.clockInterval = null;
+    }
+        
+    document.clockInterval = setInterval(upTime,1000);
+}
+
+</script>
