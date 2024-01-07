@@ -1,0 +1,1114 @@
+<style>
+.gaugeLevelPorcentage {
+    border-radius: 15px !important;
+}
+.gaugePressureBar {
+    border-radius: 15px !important;
+}
+.textAmbiente {
+    left: 136px !important;
+    top: 72px !important;
+    width: 109px !important;
+}
+
+.textS3help {
+    padding: 0 !important;
+    border-radius: 15px !important;
+    left: 8px !important;
+    width: 223px !important;
+}
+
+.grupoExportUSBList {
+    position: fixed;
+    left: 510px !important;
+}
+
+.grupoExportLogs {
+    position: fixed;
+    top: 257px !important;
+    left: 515px !important;
+}
+.grupoDelete{
+    position: fixed;
+    top: 211px !important;
+    left: 548px !important;
+}
+.grupoImport {
+    position: fixed;
+    top: 257px !important;
+    left: 515px !important;
+}
+.grupoExport {
+    position: fixed;
+    top: 257px !important;
+    left: 464px !important;
+}
+.grupoColor {
+    position: fixed;
+    top: 257px !important;
+    left: 548px !important;
+}
+.grupoSettings {
+    position: fixed;
+    top: 257px !important;
+    left: 548px !important;
+}
+.grupoChangeSelect {
+    position: fixed;
+    top: 257px !important;
+    left: 548px !important;
+}
+.grupoChangeGuest{
+    position: fixed;
+    left: 548px !important;
+    top: 136px !important;
+}
+.textCo2PumpPressure {
+    left: 240px !important;
+    top: -5px !important;
+    width: 175px !important;
+    height: 33px !important;
+}
+.textExtractionTime {
+    padding: 0 !important;
+    left: 250px !important;
+    top: 69px !important;
+    width: 128px !important;
+    height: 15px !important;
+}
+.numSetTimer {
+    padding:0 !important;
+    left: 241px !important;
+    top: 95px !important;
+    width: 122px !important;
+    height: 18px !important;
+}
+.grupoControlsHydraulics {
+width: 390px !important;
+}
+.gaugeCo2PumpPressure {
+    left: 402px !important;
+    width: 87px !important; 
+}
+.gaugeTimerCounterDown {
+    left: 402px !important;
+    width: 87px !important;
+}
+.gaugeCo2Pump {
+    left:270px !important;
+}
+.gaugeCoSolventPump {
+    left:270px !important;
+}
+.swCoSolvent{
+    left: 214px !important;
+    top: 91px !important;
+    width: 37px !important;
+}
+.swCo2Pump {
+    left: 214px !important;
+    top: 25px !important;
+    width: 37px !important;
+}
+.textOnOffCo2Pump {
+    padding:0 !important;
+    left: 185px !important;
+    top: 25px !important;
+}
+.textOnOffCoSolvent {
+    padding:0 !important;
+    left: 185px !important;
+    top: 90px !important;
+}
+.numericCo2pump{
+    padding: 0 !important;
+    left: 12px !important;
+    top: 31px !important;
+    width: 112px !important;
+    height: 15px !important;
+}
+.numericCo-SolventPump {
+    padding: 0 !important;
+    left: 12px !important;
+    top: 96px !important;
+    width: 112px !important;
+    height: 15px !important;
+}
+.textCo2Pump {
+    font-size: 600 !important;
+    padding: 0 !important;
+    width: 110px !important;
+    height: 18px !important;
+    left: 25px !important;
+    top: 3px !important;
+}
+.textCosolventPump{
+    left: 25px !important;
+    top: 68px !important;
+    width: 144px !important;
+    height: 18px !important;
+    padding: 0 !important;
+}
+.gauTempHeat .nr-dashboard-gauge{
+    top: 457px !important;
+    position: fixed;
+}
+/*Posicion titulos gauge TEMPERATURE*/
+.gauTempHeat .nr-dashboard-gauge-title {
+top: 358px !important;
+left: 50px !important;
+position: fixed;
+}
+.gaugTempCool .nr-dashboard-gauge{
+top: 457px !important;
+position: fixed;
+}
+.gaugTempCool .nr-dashboard-gauge-title {
+    top: 358px !important;
+    left: 166px !important;
+position: fixed;
+}
+/*Tamano de riel de switch*/
+md-switch .md-bar {
+    height: 9px !important;
+    width: 25px !important;
+    left: 2.5px !important;
+}
+/*Tamano de circulo de switch*/
+md-switch .md-thumb {
+    height: 15px !important;
+    width: 15px !important;
+}
+/* posicion del icono de hamburgesa dashboard */
+.md-toolbar-tools .md-button.md-icon-button{
+    top: 85px !important;
+    left: 12px!important;
+}
+
+/*Posicion y tamano texto auto-manual*/
+.textAutoManual {
+    height: 13px !important;
+    left: 119px !important;
+    width: 81px !important;
+    top: 352px !important; /*365*/
+}
+
+.nr-dashboard-button i {
+    vertical-align: super !important;
+}
+/*Posicion y tamano elemento boton PID*/
+.buttPid {
+    left: 203.5px !important;
+    top: 492px !important;
+    width: 25px !important; /*100px*/
+    height: 29px !important; /*23px*/
+}
+
+.buttPid .md-button.md-raised:not([disabled]){
+    box-shadow: 0px 0px 0px 0 #dadada;
+}
+
+/*Estilo boton PID ( borde, esquinas, tamano de letra)*/
+.buttPid .md-button {
+    border: #FFFFFF 1.5px solid !important;
+    border-radius: 5px;/*20px*/
+
+    /*
+    font-size: 12px; Tamano letra frontal
+    font-weight: 100;
+    line-height: 19.7px;
+    text-transform: capitalize; Tipo de texto mayusculas/minusculas/etc */
+    
+}
+/*Estilo de texto en nodos gauge*/
+.nr-dashboard-theme .nr-dashboard-gauge-titlem {
+    font-weight: 300 !important; /*Grueso de letra titulo*/
+    margin: 0px 0px 21.5px 0px !important; /*Posicion de titulo respecto al indicador*/
+}
+.nr-dashboard-theme .nr-dashboard-gauge text {
+    font-weight: 300 !important; /*Grueso de min/max/value*/
+}
+
+.buttOpen .md-button.md-raised:not([disabled]){
+box-shadow: 0px 0px 0px 0 #dadada;
+}
+/*Posicion de botones open / ancho-largo de botones*/
+.buttOpen {
+    left: 172px !important;/*posicion horizontal*/
+    top: 455px !important;/*posicion vertical*/
+    width: 59px !important; /*Largo de botones*/
+    height: 34px !important; /*Ancho de botones*/
+}
+/*Estilo de botones, tamano de letra/bordes/etc*/
+.buttOpen .md-button {
+    border: #55BA4C 3.0px solid !important;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px !important;
+}
+.buttClose .md-button.md-raised:not([disabled]){
+box-shadow: 0px 0px 0px 0 #dadada;
+}
+/*Posicion de botones close / ancho-largo de botones*/
+.buttClose {
+    left: 5px !important;
+    top: 455px !important;
+    width: 59px !important;
+    height: 34px !important;
+}
+/*Estilo de botones, tamano de letra/bordes/etc*/
+.buttClose .md-button {
+    border: #D7524F 3.0px solid !important;
+    border-radius: 15px 15px 15px 15px ;
+    height : 70% ;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px !important;
+}
+/*Estilo de color circulo de switch en posicion off*/
+.nr-dashboard-theme .nr-dashboard-switch md-switch .md-thumb {
+    background-color: #9E9F9E;
+}
+/*Estilo de color riel en posicion off*/
+.nr-dashboard-theme .nr-dashboard-switch md-switch .md-bar {
+    background-color: #E6E6E6;
+}
+/*Esilo de color circulo de switch en posicion on*/
+.nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-thumb {
+    background-color: #55BA4C;
+}
+/*Estilo de color riel en posicion on*/
+.nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-bar {
+    background-color: #D3E8D7;
+}
+/*Ancho del grupo temperature*/
+.temperature {
+    height: 212px !important;
+}
+/*Estilo de bordes de grupos*/
+.nr-dashboard-theme ui-card-panel .temperature{
+    border: 2.8px dashed #000000;
+    border-radius: 15px;
+}
+.nr-dashboard-theme ui-card-panel .co2 {
+    border: 2.8px dashed #000000;
+    border-radius: 15px;
+}
+.nr-dashboard-theme ui-card-panel .ex {
+    border: 2.8px dashed #000000;
+    border-radius: 15px;
+} 
+.nr-dashboard-theme ui-card-panel .se1 {
+    border: 2.8px dashed #000000;
+    border-radius: 15px;
+} 
+.nr-dashboard-theme ui-card-panel .se2 {
+    border: 2.8px dashed #000000;
+    border-radius: 15px;
+}
+.nr-dashboard-theme ui-card-panel .se3 {
+    border: 2.8px dashed #000000;
+    border-radius: 15px;
+}
+/*Ancho de grupo menu/logo para ajustar espacio entre este grupo y el grupo extractor*/
+.nr-dashboard-theme ui-card-panel .menu{
+    width:238px !important;
+}
+.swPreheaterTemp {
+    top : 52px !important;
+    left: 185px !important;
+}
+.textOnOffPreTemp {
+    top : 50px !important;
+    left: 151px !important;
+}
+.textOnOffCo2 {
+    top : 63px !important;
+    left: 150px !important;
+}
+.numPreheatherTemp {
+    top : 52px !important;
+    width: 95px !important;
+    padding: 0px !important;
+}
+.gauPreheaterTemp {
+    top : 82px !important;
+}
+
+.textVesselTemp {
+    font-weight: 600;
+    top: 155px !important;
+
+}
+.numVesselTemp {
+    top: 186px !important;
+    width: 95px !important;
+    padding: 0px !important;
+}
+.swVesselTemp {
+    top: 184px !important;
+    left: 185px !important;
+}
+.textOnOffVessTemp {
+    top: 183px !important;
+    left: 150px !important;
+}
+.gaugVesselPress {
+    top: 380px !important;
+}
+.textCo2Pump{
+    font-weight: 500 !important;
+}
+.textCosolventPump{
+    font-weight: 500 !important;
+}
+.numVesselTemp .md-button.md-icon-button {
+    width: 30px !important;
+    padding: 0 !important;
+}
+.numPreheatherTemp .md-button.md-icon-button {
+    width: 30px !important;
+    padding: 0 !important;
+}
+/*Estilo tamano de flechas de nodos numeric*/
+.num .md-button.md-icon-button {
+    width: 30px !important;
+    padding: 0 !important;
+}
+/*Estilo tamano de flechas de nodos numeric vessel pressure*/
+.numVesselPress .md-button.md-icon-button {
+    width: 30px !important;
+    padding: 0 !important;
+}
+/*Posicion de nodos numeric vessel pressure*/
+.numVesselPress {
+    top: 343px !important;
+    width: 95px !important;
+    padding: 0px !important;
+}
+/*Color de fondo de TAB (ajustable tambien desde la pestana theme)*/
+body.nr-dashboard-theme md-toolbar {
+    background-color: #ffffff;
+}
+/*Color de letra del texto en TAB*/
+body.nr-dashboard-theme md-toolbar .md-toolbar-tools {
+    color: black;
+}
+/*Posicion vertical numeric valvula */
+.numExValveVessel {
+    padding: 0 !important;
+    left: 63px !important;
+    top: 455px !important;
+    width: 106px !important
+
+}
+/*Estilo reyeno en las flechas numeric valvula*/
+.numExValveVessel .md-button.md-icon-button {
+padding: 5px !important;
+width: 29px !important;
+}
+/*Posicion vertical gauge vessel jacket*/
+.gaugVesselJacket {
+    top: 230px !important;
+}
+/*Estilo tamano de letra ancho y separacion texto TAB*/
+.md-toolbar-tools {
+    letter-spacing : 0.05em !important;
+    font-size: 12px !important;
+    height: 26px !important; /*26*/
+    max-height: 76 !important;
+}
+body.nr-dashboard-theme {
+    font-size: 12px !important; /*Tamano de letras general*/
+}
+.md-toolbar-tools h1 {
+/**/
+}
+/*
+.nr-dashboard-text .value {
+    font-weight: 400; Grueso de letras de valores
+}
+.nr-dashboard-text .label {
+    font-weight: 600 ; Grueso de letras de labels
+}
+*/
+.titleGrupEx {
+    left: 13px !important;
+    width: 221px !important;
+    border-radius: 15px !important;
+    padding: 0;
+    font-weight: 400 !important; 
+    font-size: 22px !important;
+    letter-spacing : 0.105em !important;
+}
+.titleGrupSe1 {
+    left: 13px !important;
+    width: 221px !important;
+    border-radius: 15px !important;
+    padding: 0;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    letter-spacing : 0.105em !important;
+}
+.titleGrupSe2 {
+    left: 13px !important;
+    width: 221px !important;
+    border-radius: 15px !important;
+    padding: 0;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    letter-spacing : 0.105em !important;
+}
+.titleGrupSe3 {
+    left: 13px !important;
+    width: 221px !important;
+    border-radius: 15px !important;
+    padding: 0;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    letter-spacing : 0.105em !important;
+}
+.titleGrupCo2 {
+    left: 60px !important;
+    top: 0px !important;
+    width: 136px !important;
+    height: 33px !important;
+    border-radius: 15px !important;
+    padding: 0;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    letter-spacing : 0.105em !important;
+}
+.titleGrupTemp {
+    left: 13px !important;
+    width: 221px !important;
+    border-radius: 15px !important;
+    padding: 0;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    letter-spacing : 0.105em !important;
+}
+
+.textPreheaterTemp{
+    font-weight: 600 !important;
+    height: 23px !important;
+    top: 24px !important;
+    letter-spacing : 0.03em !important;
+}
+
+.nr-dashboard-theme .nr-dashboard-form-button {
+    background-color: #D3E8D7;
+    color: #000000;
+}
+
+.nr-dashboard-cardcontainer .singIn{
+    top: 140px !important;
+}
+/*Espacio (largo-ancho) entradas de texto login*/
+.singIn .formElement {
+    width: 200px !important;
+    height: 42px !important;
+}
+/*Estilo boton de login*/
+.singIn .md-button {
+    top: 255px !important;
+    position: fixed;
+    width: 222px !important;
+    border: #55BA4C 3.0px solid !important;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px !important;
+}
+.singIn .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+/*Color linea inferior*/
+.formExportConfig .md-input {
+border-color: #000000 !important;
+}
+.formExportConfig {
+    height: 190px !important;
+}
+.formExportConfig .md-button{
+    width: 234px !important;
+    top: 7px !important;
+    border: #55BA4C 3.0px solid !important;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px !important;
+}
+.formExportConfig .md-button:not([disabled]):hover {
+background-color: #55BA4C !important;
+}
+/*Notification button START process*/
+.notifStartOperations .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px !important;
+    height : 70%;
+    font-size: 10px; 
+    line-height: 21px;
+}
+/*Color de linea ingresar nombre de archivo log (negro)*/
+.nr-dashboard-theme md-input-container.md-default-theme .md-input,  md-input-container .md-input .notifStartOperations{
+border-color: #000000 !important;
+}
+/*Color de linea en logging (negro)*/
+.singIn md-input-container .md-input {
+border-color: #000000 !important;
+}
+
+
+
+.formChange md-input-container .md-input {
+border-color: #000000 !important;
+}
+.notifFinishOperations .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+.notifyResetScada .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+.notifyPowerOfScada .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+.notifChangeUserPass .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+.notifClosingAndSavingChangesUserPass .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+.notifAuthenticationFailed .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+.notifLogoutComplete .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+.notifExportFileConfirm .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+.notifExportConfigComplete .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+
+.notifPrimerArranq .md-button.md-default-theme.md-primary, .md-button.md-primary {
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+.notifProcessFinished .md-button.md-default-theme.md-primary, .md-button.md-primary {
+background-color: #D3E8D7 !important;
+color: #000000 !important;
+border: #55BA4C 3.0px solid;
+border-radius: 15px 15px 15px 15px;
+height : 70%;
+font-size: 10px;
+line-height: 21px;
+}
+
+.md-button.md-default-theme.md-primary, .md-button.md-primary {
+    background-color: #D3E8D7 !important;
+}
+
+/*
+.notifPrimerArranq .md-button {
+    background-color: #D3E8D7 !important;
+    color: #FFFFFF !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+*/
+.notifExitCurrentSession .md-button.md-default-theme.md-primary, .md-button.md-primary{
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    line-height: 21px;
+}
+.buttReturnOfExportConfig .md-button{
+    width: 234px !important;
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttReturnOfExportConfig .md-button:not([disabled]):hover {
+background-color: #55BA4C !important;
+}
+.buttReturnOfImportConfig {
+    left:4px !important;
+    top: 40px !important;
+}
+
+.buttReturnOfImportConfig .md-button{
+    width: 234px !important;
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttReturnOfImportConfig .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+.buttLoadFiles .md-button{
+    width: 234px !important;
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttLoadFiles .md-button:not([disabled]):hover {
+background-color: #55BA4C !important;
+}
+.buttDeleteSelectedFile .md-button{
+    width: 234px !important;
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttDeleteSelectedFile .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+
+.buttReturnOfDeleteStored {
+    top: 237px !important;
+}
+.buttReturnOfDeleteStored .md-button{
+    width: 234px !important;
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttReturnOfDeleteStored .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+.buttLoadUsb .md-button{
+    width: 234px !important;
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttLoadUsb .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+.buttExportLogToUsb .md-button{
+    width: 234px !important;
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttExportLogToUsb .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+.buttUnmountUsb{
+    top: 205px !important;
+}
+.buttUnmountUsb .md-button{
+    width: 234px !important;
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttUnmountUsb .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+
+.buttReturnOfExportUsb {
+    top: 244px !important;
+}
+.buttReturnOfExportUsb .md-button{
+    width: 234px !important;
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttReturnOfExportUsb .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+
+.nr-dashboard-theme .nr-dashboard-template .md-button {
+    width: 234px !important;
+    height: 31px !important;
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+/*Ancho largo y ajuste lateral boton import file*/ /*height: 45px !important;*/
+.nr-dashboard-theme .nr-dashboard-template {
+    left: -3px !important;
+    width: 248px !important;
+
+}
+
+.buttReturnOfExportConfig {
+    left: 78px !important;
+    top: 111px !important;
+}
+.formChange .formElement {
+width: 200px !important;
+height: 42px !important;
+}
+.formChange .md-button {
+    top: 304px !important;
+    left: 543px !important; 
+    position: fixed;
+    width: 222px !important;
+    border: #55BA4C 3.0px solid !important;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px !important;
+}
+.formChange .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+.buttLogoutScada {
+    width:80px !important;
+}
+.buttLogoutScada .md-button {
+    background-color: #E6E6E6 !important;
+    color: #000000 !important;
+    border: #9E9F9E 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttLogoutScada .md-button:not([disabled]):hover {
+    background-color: #E6E6E6 !important;
+}
+/*Icono de botones centrado*/
+.fa {
+display: block;
+}
+.buttRestartScada .md-button {
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttRestartScada .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+.buttPowerOffScada {
+    top: 40px !important;
+}
+.buttPowerOffScada .md-button {
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttPowerOffScada .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+.buttReturnOfSettings {
+    top: 79px !important;
+}
+.buttReturnOfSettings .md-button {
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.buttReturnOfSettings .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+
+.buttReturnOfColor {
+    left: 3px !important;
+    top: 75px !important;
+}
+.buttReturnOfColor .md-button {
+background-color: #D3E8D7 !important;
+color: #000000 !important;
+border: #55BA4C 3.0px solid;
+border-radius: 15px 15px 15px 15px;
+height : 70%;
+font-size: 10px;
+text-transform: capitalize;
+line-height: 21px;
+}
+.buttReturnOfColor .md-button:not([disabled]):hover {
+background-color: #55BA4C !important;
+}
+.returnOfChangePass {
+    left: 2px !important;
+    top: 86px !important;
+}
+.returnOfChangePass .md-button {
+    background-color: #D3E8D7 !important;
+    color: #000000 !important;
+    border: #55BA4C 3.0px solid;
+    border-radius: 15px 15px 15px 15px;
+    height : 70%;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.returnOfChangePass .md-button:not([disabled]):hover {
+    background-color: #55BA4C !important;
+}
+
+
+.nr-dashboard-button .md-button {
+    width: 96%;
+    height: 90%;
+}
+/*Esta clase va sin punto al inicio, corresponde a las configuraciones del TAB*/
+md-toolbar {
+    min-height: 0px !important;
+    height: 1px !important; /*largo del tab*/ 
+    max-height: 1px !important;
+    width :262px !important; /*ancho de tab*/
+
+}
+.swCo2Chiller{
+    width: 43px !important;
+    left: 185px !important;
+}
+.swControlsHydraulics{
+
+}
+.textVasselPre {
+    top: 310px !important;
+    font-weight: 600;
+}
+.swVesselPress {
+    top: 343px !important;
+    left: 185px !important;
+}
+.buttonstop .md-button{
+    border-radius: 21px 21px 21px 21px;
+    font-weight: 600;
+    border: black 3.5px solid;
+    font-size: 75px;
+}
+.buttonstop {
+    width: 244px !important;
+    height: 152px !important;
+    left: 115px !important;
+}
+.buttonOpStart .md-button {
+    border-radius: 15px 15px 15px 15px !important;
+    font-weight: 300;
+    border: black 3.5px solid;
+    font-size: 25px;
+}
+.buttonOpStart{
+    left:-6px !important;
+    height: 71px !important;
+    width: 111px !important;
+}
+.buttonOpFinish .md-button {
+    border-radius: 15px 15px 15px 15px !important;
+    font-weight: 300;
+    border: black 3.5px solid;
+    font-size: 25px;
+}
+.buttonOpFinish{
+    left:-6px !important;
+    height: 71px !important;
+    top: 74px !important;
+    width: 111px !important;
+}
+.md-toolbar-tools h1 {
+    font-size: 15px !important; /*Tamano de letra del tutolo de tabs*/
+    position: fixed;
+    left: 60px !important;
+    top: 90px !important;
+}
+
+/*Posicion vertical del menu desplegable lateral izquierdo Tabs menu*/
+.md-sidenav-left {
+    top: 120px !important;
+    height: 235px !important;
+    border-radius: 15px !important;
+}
+
+.numTempHeating{
+left: 0px !important;
+width: 111px !important;
+top: 45px !important;
+}
+.textTempHeating{
+left:4px !important;
+}
+.textOnOffTempHeating{
+    top: 72px !important;
+    left: 19px !important;
+}
+.swTempHeating{
+    top: 74px !important;
+    left: 58px !important;
+}
+.numTempCooling{
+left: 110px !important;
+top: 45px !important;
+}
+.textTempCooling{
+left: 131px !important;
+width: 98px !important;
+}
+.textOnOffTempCooling{
+top: 72px !important;
+left:135px !important;
+}
+.swTempCooling{
+    top: 74px !important;
+    left: 175px !important;
+}
+.buttManualStart{
+    width: 85px !important;
+    height: 32px !important;
+}
+.buttManualStart .md-button {
+border: #9E9F9E 2.5px solid !important;
+border-radius: 15px 15px 15px 15px;
+height : 70%;
+font-size: 10px;
+text-transform: capitalize;
+line-height: 14px !important;
+}
+.rellenoUNO{
+top:305px !important;
+height:12px !important;
+}
+.rellenoTRES{
+    width: 15px !important;
+    height: 0px !important;
+}
+.textS3help .nr-dashboard-text p {
+    margin-left: 31px  !important;
+}
+</style>
