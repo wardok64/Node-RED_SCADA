@@ -120,15 +120,20 @@ screen.
 ## Dashboard (SCADA).
 
 ### Login screen:
-![thumbnail_img_demo1](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/420dcdae-cf1e-45dd-a632-c31b8e148aa6)
+![1_](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/0ff7ea5a-ee94-4e22-ac0f-cde1b531db05)
+
 ### Scada (Admin):
-![thumbnail_scada_](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/78d00c66-07f0-4a90-8f6b-55e0e58a7bb2)
+![2_](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/426de352-83dd-460f-a581-a8b6c13a919c)
+
 ### Scada (Change color):
-![thumbnail_img_demo3](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/fdc3b5b9-ab38-4571-92ce-42643abfe3ab)
+![4_](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/2b83170c-c2cb-43cf-99c5-5ff070dd5735)
+
 ### Scada (menu):
-![img_demo4](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/4e60720c-2bab-45bf-b180-0a7acb894774)
+![3_](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/1adeefa2-ff20-4dfa-b984-34941f6e13d7)
+
 ### Scada (Read only / lock):
-![thumbnail_img_demo6](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/7f5b9ff6-7103-40ff-80af-9359189dea22)
+![5_](https://github.com/wardok64/Node-RED_SCADA/assets/104173190/bf64fb62-449b-4a5b-a42d-d3eb80851c9e)
+
 
 ## Video DEMO (Runing on FlowFuse).
 
